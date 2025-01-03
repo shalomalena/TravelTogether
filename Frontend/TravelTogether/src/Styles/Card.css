@@ -1,0 +1,27 @@
+.card {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    border-color: #2c5282;
+    background-color: rgba(44, 82, 130, 0.05);
+  }
+  
+  .add-content {
+    text-align: center;
+    color: #666;
+  }
+  
+  .plus-icon {
+    font-size: 32px;
+    display: block;
+    margin-bottom: 8px;
+  }

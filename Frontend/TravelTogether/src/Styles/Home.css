@@ -1,0 +1,66 @@
+/* Home.css */
+.Home-container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 90px;
+}
+
+.vertical-menu {
+    width: 250px;
+    padding: 20px;
+}
+.vertical-menu p{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.vertical-menu h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.vertical-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-menu li {
+    padding: 10px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.vertical-menu li:hover {
+    color: #007bff;
+}
+
+.horizontal-content {
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.horizontal-content h1 {
+    background-color: #eafaea;  
+    padding: 10px 20px;        
+    border-radius: 8px;       
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1)
+}
+
+.horizontal-content p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+    .Home-container {
+        flex-direction: column;
+    }
+    
+    .vertical-menu {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+}
